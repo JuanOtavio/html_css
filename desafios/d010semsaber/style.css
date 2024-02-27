@@ -1,0 +1,104 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: andro;
+    src: url(font/idroid.otf) 
+    format(opentype);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #27c24b65;
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(#398F4D, #375C40, #29332B);
+    padding: 1%;
+    margin:0%;
+}
+
+header > h1{
+    color:white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+header > p{
+    color:white;
+    text-align: center;
+}
+nav{
+    margin: 0px;
+    padding: 10px;
+}
+nav > a{
+    margin-right: 6px;
+    text-decoration: none;
+    color: white;
+    
+}
+nav > a:hover{
+   background-color: #375C40;
+    color:#398F4D;
+    padding: 3px;
+}
+main{
+    max-width: 800px;
+    width: auto;
+    background-color: white;
+    margin: auto;
+    padding-top: 5px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    
+}
+
+
+article > h1{
+    font-family: andro;
+    color: #375C40;
+    text-align: center;
+    
+}
+article > p{
+    text-align: left;
+    text-indent: 10px;
+    margin-left: 9px;
+}
+
+article > h2{
+    color: #375C40;
+    background-image: linear-gradient(to right, #8ef01685, white);
+    text-indent: 20px;
+}
+#texto{
+    text-align: center;
+}
+
+section#video{
+    text-align: center;
+    background-color: #375C40;
+    margin: 1px;
+    padding: 10px;}
+
+    section#extra{
+        background-color:#398f4d38;
+        margin: 15px;
+        border-radius: 12px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.267);
+        
+    }
+    #extra > h3{
+        background-color: #375C40;
+        margin: 0px;
+        padding:10px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+    #extra > p{
+        text-indent: 5px;
+        padding: 5px;
+    }
+    footer{
+        background-color: #29332B;
+        text-align: center;
+        color: white;
+    }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caixa box-level</title>
+    <style>
+        h1{
+            display: inline;
+            
+            background-color: grey;
+            height: 300px;
+            width: 300px;
+            border: 10px solid darkgray;
+            padding: 10px 10px 10px 10px;
+            margin: 10px auto 10px auto;
+            outline: 5px dashed salmon;
+            
+        }
+        h1:hover{
+            border-color:yellow;
+            background-color: orange;
+        }
+        a{
+            display: block;
+            border: 10px solid orange;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>um titulo é uma caixa box level</h1>
+    <p>paragráfos também são, porém, <a href="#">links</a> são inline-level</p>
+</body>
+</html>

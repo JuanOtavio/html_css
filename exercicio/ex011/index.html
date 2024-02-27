@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html 5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Teste de imagem dinamicas</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" typr="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto grande">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>aprender a reproduzir audio</p>
+    <audio preload='metadata' controls autoplay loop >
+        <source src="midia/Racionais mcs vida loka parte 2 instrumental.mp4" >
+        <p>infelizemnte o audio não rodou no seu pc se quiser fazer o download <a href="midia/Racionais mcs vida loka parte 2 instrumental.mp4" type="audio.mpeg">clique aqui.</a></p>
+    </audio>
+</body>
+</html>
