@@ -2,4 +2,4 @@
  Curso de html 5 e css3 CursoEmVideo
 
 
-estou aprendendo a criar site e agora vou gerenciar meu repositório
+<a ref="https://juanotavio.github.io/html_css/exercicio/ex002/index.html"> clique aqui </a>
